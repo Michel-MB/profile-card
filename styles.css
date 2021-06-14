@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: black;
+}
+section {
+  background: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.box {
+  width: 350px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.box-header {
+  background-image: url(bg-pattern-card.svg);
+  background-size: cover;
+  height: 150px;
+}
+.image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  margin: -55px auto 30px auto;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.box-bdy {
+  padding: 0 20px 25px;
+}
+.name {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.age,
+.city,
+.object {
+  font-weight: 400;
+  opacity: 0.6;
+}
+.box-footer {
+  display: flex;
+}
+
+.box-footer .stats {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-footer .stats .number {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.box-footer .stats .object {
+  font-size: 12px;
+  margin-bottom: 1px;
+}
+
+.circles img {
+  position: absolute;
+}
+.circles .c1 {
+  top: -610px;
+  left: -420px;
+}
+.circles .c2 {
+  bottom: -631px;
+  right: -405px;
+}
